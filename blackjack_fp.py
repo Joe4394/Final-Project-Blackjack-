@@ -18,7 +18,6 @@ font = pygame.font.SysFont("Arial", 45)
 small_font = pygame.font.SysFont("Arial", 20)
 med_font = pygame.font.SysFont("Arial", 30)
 color = pygame.Color(138, 73, 36)
-pygame.display.flip()
 active = False
 hand_active = False
 
