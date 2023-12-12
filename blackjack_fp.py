@@ -38,10 +38,10 @@ def draw_game(act, record, result):
     button_list = []
 
     if not act:
-        deal = pygame.draw.rect(screen, "white", [150, 25, 300, 75], 0, 5)
-        pygame.draw.rect(screen, "black", [150, 25, 300, 75], 3, 5)
+        deal = pygame.draw.rect(screen, "white", [150, 185, 300, 75], 0, 5)
+        pygame.draw.rect(screen, "black", [150, 185, 300, 75], 3, 5)
         deal_text = font.render("DEAL HAND", True, "black")
-        screen.blit((deal_text), (195, 37.5))
+        screen.blit((deal_text), (195, 197.5))
         button_list.append(deal)
     else:
         hit = pygame.draw.rect(screen, "white", [65, 350, 200, 75], 0, 5)
